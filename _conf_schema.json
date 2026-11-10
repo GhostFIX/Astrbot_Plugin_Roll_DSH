@@ -1,0 +1,13 @@
+{
+  "max_items": {
+    "description": "单次最多允许的候选项数量",
+    "type": "int",
+    "default": 20,
+    "slider": {
+      "min": 2,
+      "max": 100,
+      "step": 1
+    },
+    "hint": "默认 20，最高 100。超过上限的抽取请求会被拒绝。"
+  }
+}

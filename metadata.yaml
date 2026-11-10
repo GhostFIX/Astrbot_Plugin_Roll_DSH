@@ -1,0 +1,17 @@
+name: astrbot_plugin_roll
+display_name: Roll 随机抽选
+short_desc: 在多个候选项中随机抽取一个。
+desc: |
+  一个轻量的随机抽选插件。发送 `roll <item1> <item2> ...`，机器人会从候选项中随机选出一个并回复。
+
+  - 默认最多 20 个候选项，可在插件配置中调整，最高 100 个。
+  - 支持用单引号或双引号包裹带空格的候选项。
+  - 不调用 AI、不访问网络，也不持久化任何聊天数据。
+version: 1.0.0
+author: GhostFIX
+repo: https://github.com/GhostFIX/Astrbot_Plugin_Roll_DSH
+astrbot_version: ">=4.16,<5"
+tags:
+  - 随机
+  - 抽选
+  - 娱乐

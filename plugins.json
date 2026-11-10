@@ -1,0 +1,27 @@
+{
+  "$meta": {
+    "schema_version": 1,
+    "name": "GhostFIX AstrBot Plugins",
+    "version": "1.0.0",
+    "homepage": "https://github.com/GhostFIX/Astrbot_Plugin_Roll_DSH",
+    "repository": "https://github.com/GhostFIX/Astrbot_Plugin_Roll_DSH",
+    "description": "GhostFIX 的 AstrBot 插件源"
+  },
+  "GhostFIX/astrbot_plugin_roll": {
+    "author": "GhostFIX",
+    "name": "astrbot_plugin_roll",
+    "display_name": "Roll 随机抽选",
+    "version": "1.0.0",
+    "repo": "https://github.com/GhostFIX/Astrbot_Plugin_Roll_DSH",
+    "desc": "在多个候选项中随机抽取一个。发送 roll 后跟多个空格分隔的候选项即可。",
+    "short_desc": "在多个候选项中随机抽取一个。",
+    "logo": "https://raw.githubusercontent.com/GhostFIX/Astrbot_Plugin_Roll_DSH/main/logo.png",
+    "tags": [
+      "随机",
+      "抽选",
+      "娱乐"
+    ],
+    "category": "entertainment",
+    "astrbot_version": ">=4.16,<5"
+  }
+}
