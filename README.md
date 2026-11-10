@@ -25,24 +25,6 @@
 - 结果以纯文本回复，不经过大模型，响应速度快。
 - 指令名可以在 AstrBot WebUI 的“插件 → 管理行为 → 指令”中重命名，插件无需改代码。
 
-## 上传到 GitHub
-
-在 GitHub 新建一个公开仓库，仓库名使用 `Astrbot_Plugin_Roll_DSH`，默认分支保持 `main`，然后把本目录的全部文件上传到仓库根目录。命令行方式：
-
-```bash
-git init
-git add .
-git commit -m "feat: add roll plugin"
-git branch -M main
-git remote add origin https://github.com/GhostFIX/Astrbot_Plugin_Roll_DSH.git
-git push -u origin main
-```
-
-上传后先访问下面的地址，确认能看到 `plugins.json` 的内容，再继续安装：
-
-```text
-https://raw.githubusercontent.com/GhostFIX/Astrbot_Plugin_Roll_DSH/main/plugins.json
-```
 
 ## 安装
 
