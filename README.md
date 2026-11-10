@@ -29,25 +29,7 @@
 
 ## 安装
 
-### 方式一：通过自定义插件源安装（推荐）
-
-前提：插件仓库已推送到 GitHub，且默认分支为 `main`。本仓库已经包含符合 AstrBot 插件市场规范的 `plugins.json`。
-
-1. 在 GitHub 打开仓库，确认以下地址可以访问并返回 JSON：
-
-   <https://raw.githubusercontent.com/GhostFIX/Astrbot_Plugin_Roll_DSH/main/plugins.json>
-
-2. 打开 AstrBot WebUI，进入 **插件 → 插件市场 → 插件源管理**。
-3. 添加自定义插件源，地址填写上面的 `plugins.json` 链接。
-4. 保存后刷新插件市场，搜索 **Roll 随机抽选** 并安装。
-5. 回到“已安装”页面，确认插件已启用。
-6. 在聊天中发送：
-
-   ```text
-   /roll 苹果 香蕉 橘子
-   ```
-
-### 方式二：从仓库链接安装
+### 方式一：从仓库链接安装
 
 在 AstrBot 的 **插件 → 安装插件（+）→ 从链接安装** 中填写：
 
@@ -55,7 +37,7 @@
 https://github.com/GhostFIX/Astrbot_Plugin_Roll_DSH
 ```
 
-### 方式三：手动安装
+### 方式二：手动安装
 
 把仓库放到 AstrBot 的插件目录，目录名建议使用 `astrbot_plugin_roll`：
 
@@ -72,6 +54,24 @@ AstrBot/data/plugins/astrbot_plugin_roll/
 ```
 
 然后在 WebUI 中重载插件，或重启 AstrBot。
+
+### 方式三：通过自定义插件源安装
+
+前提：插件仓库已推送到 GitHub，且默认分支为 `main`。本仓库已经包含符合 AstrBot 插件市场规范的 `plugins.json`。
+
+1. 在 GitHub 打开仓库，确认以下地址可以访问并返回 JSON：
+
+   <https://raw.githubusercontent.com/GhostFIX/Astrbot_Plugin_Roll_DSH/main/plugins.json>
+
+2. 打开 AstrBot WebUI，进入 **插件 → 插件市场 → 插件源管理**。
+3. 添加自定义插件源，地址填写上面的 `plugins.json` 链接。
+4. 保存后刷新插件市场，搜索 **Roll 随机抽选** 并安装。
+5. 回到“已安装”页面，确认插件已启用。
+6. 在聊天中发送：
+
+   ```text
+   /roll 苹果 香蕉 橘子
+   ```
 
 ## 使用
 
