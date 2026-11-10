@@ -46,10 +46,6 @@
    /roll 苹果 香蕉 橘子
    ```
 
-> 如果你的默认分支不是 `main`，请把源地址中的 `main` 换成实际分支名。  
-> 如果你 Fork 了本仓库，请把 `plugins.json` 中的 `homepage`、`repository`、`repo`，
-> 以及 `metadata.yaml` 中的 `repo` 全部改成你自己的仓库地址，否则市场记录会指向原作者仓库。
-
 ### 方式二：从仓库链接安装
 
 在 AstrBot 的 **插件 → 安装插件（+）→ 从链接安装** 中填写：
