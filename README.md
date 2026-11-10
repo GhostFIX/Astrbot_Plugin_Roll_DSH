@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 一个符合 AstrBot 插件规范的轻量随机抽选插件：在多个候选项中随机选出一个。
-本插件由 Deepseek-v4.1-flash 生成，由于功能较为简单，仅作简单代码审核。
+> 本插件由 Deepseek-v4.1-flash 生成，由于功能较为简单，仅作简单代码审核。
 
 ```text
 /roll 苹果 香蕉 橘子
